@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello Kitty's math class</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Math Class by Kittens</h1>
+    <div class="classes_odd">
+        <a href="class_01.html">Numbers</a>
+    </div>
+    <div class="classes_even">
+        <a href="class_02.html">Addition</a>
+    </div>
+    <div class="classes_odd">
+        <a href="class_03.html">Subtraction</a>
+    </div>
+    <div class="classes_even">
+        <a href="class_04.html">Multiplication</a>
+    </div>
+    <div class="classes_odd">
+        <a href="class_05.html">Division</a>
+    </div>
+    <h2 id="h_calculator">Calculator</h2>
+    <div id="calculator">
+        <input type="text" id="display" disabled>
+        <div >
+            <button class="buttons_n" onclick="add('7')">7</button>
+            <button class="buttons_n" onclick="add('8')">8</button>
+            <button class="buttons_n" onclick="add('9')">9</button>
+            <button class="buttons_op" onclick="add('+')">+</button>
+            <br>
+            <button class="buttons_n" onclick="add('4')">4</button>
+            <button class="buttons_n" onclick="add('5')">5</button>
+            <button class="buttons_n" onclick="add('6')">6</button>
+            <button class="buttons_op"  onclick="add('-')">-</button>
+            <br>
+            <button class="buttons_n" onclick="add('1')">1</button>
+            <button class="buttons_n" onclick="add('2')">2</button>
+            <button class="buttons_n" onclick="add('3')">3</button>
+            <button class="buttons_op" onclick="add('*')">x</button>
+            <br>
+            <button class="buttons_n" onclick="add('0')">0</button>
+            <button class="buttons_op" onclick="clearDisplay()">C</button>
+            <button class="buttons_op" onclick="calculate()">=</button>
+            <button class="buttons_op" onclick="add('/')">÷</button>
+            <br>
+        </div>
+    </div>
+    <h2 id="kittens">Meet the Kittens!</h2>
+    <div>
+        <img src="Fred.png" alt="Fred" id="Fred">
+        <p id="Fred_p">Fred is a lazy kitten <br> who loves numbers <br>and a great nap!</p>
+        <img src="Peanut.png" alt="Peanut" id="Peanut" >
+        <p id="Peanut_p">Peanut is math lover <br> who loves solving <br> math problems!</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
