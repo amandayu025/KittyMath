@@ -126,7 +126,7 @@ a{
     top:120px;
     left:145px;
 }
-#ballon{
+.chat{
     width:800px;
     height:200px;
     background-color: lemonchiffon;
@@ -147,7 +147,7 @@ a{
     top:300px;
     left:340px;
 }
-#next{
+#main_menu{
     position: fixed;
     top:390px;
     right:220px;
@@ -159,7 +159,7 @@ a{
     text-align: center;
     line-height: 40px;
 }
-#main_menu{
+#next{
     position: fixed;
     top:390px;
     right:350px;
